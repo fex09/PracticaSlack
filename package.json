@@ -1,0 +1,9 @@
+{
+  "name": "PracticaSlack",
+  "version": "1.0.0",
+  "description": "Practica de web avanzado para copiar pagina de slack",
+  "main": "index.js",
+  "repository": "https://github.com/fex09/PracticaSlack.git",
+  "author": "Fenix <fsolisg@gmail.com>",
+  "license": "MIT"
+}
