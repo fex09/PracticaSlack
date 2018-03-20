@@ -1,5 +1,5 @@
 {
-  "name": "PracticaSlack",
+  "name": "practicaslack",
   "version": "1.0.0",
   "description": "Practica de web avanzado para copiar pagina de slack",
   "main": "index.js",
@@ -7,11 +7,16 @@
   "author": "Fenix <fsolisg@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "gulp": "^3.9.1",
     "gulp-babel": "^8.0.0-beta.2",
+    "gulp-concat": "^2.6.1",
     "gulp-connect": "^5.5.0",
     "gulp-sass": "^3.1.0",
-    "sass": "^1.0.0-beta.5.3"
+    "run-sequence": "^2.2.1",
+    "sass": "^1.0.0-rc.1"
   },
   "dependencies": {}
 }
