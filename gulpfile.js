@@ -35,13 +35,14 @@ gulp.task('sass', function() {
         .pipe(sass({
             outputStyle: outputStyle
         }).on('error', sass.logError))
+        .pipe(gulp.dest('./src/style/'))
         .pipe(gulp.dest('./dist/style/'))
         .pipe(connect.reload());
 });
 
 gulp.task('watch', function() {
     gulp.watch('./src/scss/**/*.scss', ['sass']);
-    gulp.watch('./src/js/**/*.js', ['js']);
+    gulp.watch('./src/js/**/*.js', ['js']);    
 });
 
 gulp.task('copy', function() {
