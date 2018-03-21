@@ -1,0 +1,35 @@
+$header:200px;
+$header-logo-width: 130px;
+$header-logo-height: 50px;
+
+.app-header{
+    @include flex(space-between, right );
+    height: $header;
+    background-color: $white-1;
+    position: fixed;
+    padding: 0 $gutter-1; 
+    top:0;
+
+    &__img{
+        width: $header-logo-width;
+        height: $header-logo-height;
+    }
+    &__button{
+        &:first-child {
+            margin-right: $gutter-1;            
+        }
+        &:hover{
+            text-decoration: underline;
+        }     
+       
+    }      
+    .backwhite{
+        @include app-button($white-1);
+    }
+    
+    .withBorder{
+        @include app-button($white-1);
+        border-bottom-style: solid;
+        border-bottom-width: $width-1;
+    }  
+}

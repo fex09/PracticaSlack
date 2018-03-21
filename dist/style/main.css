@@ -46,8 +46,35 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.app-button {
-  color: #000;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fff;
-  padding: 1px; }
+.app-header {
+  justify-content: space-between;
+  align-items: right;
+  display: flex;
+  height: 200px;
+  background-color: #FFFFFF;
+  position: fixed;
+  padding: 0 15px;
+  top: 0; }
+  .app-header__img {
+    width: 130px;
+    height: 50px; }
+  .app-header__button:first-child {
+    margin-right: 15px; }
+  .app-header__button:hover {
+    text-decoration: underline; }
+  .app-header .backwhite {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 5px; }
+  .app-header .withBorder {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px; }
+
+.app-footer {
+  height: 100px;
+  background-color: #FFFFFF; }

@@ -1,7 +1,22 @@
 //Colores
-$white1:#FFFFFF;
-$blueFont1:#323648;
-$mainPurple:#3F46AD;
-$purpleHover:#1C299D;
-$grayBlock:#F5F5F5;
+$white-1:#FFFFFF;
+$blueFont-1:#323648;
+$purple-1:#3F46AD;
+$purple-2:#1C299D;
+$gray-1:#F5F5F5;
+$black-1:#000;
+
+//anchos de bordes
+$width-1: 1px;
+
+//espaciado
+$gutter: 30px;
+$gutter-1: $gutter / 2;
+
+//fuentes
+$helvetica: "Arial, Helvetica, sans-serif";
+$font-default: Arial, Helvetica, sans-serif;
+
+$infoBlock:500px;
+$col: 200px;
 

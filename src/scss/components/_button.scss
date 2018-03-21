@@ -1,6 +1,13 @@
-.app-button{
-    color:#000;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #fff;
-    padding: 1px; 
+$button-border-radius:5px;
+
+ @mixin app-button($bc){
+    font-family: $font-default;
+    background-color:$bc;
+    padding: $gutter-1;
+    border-radius: $button-border-radius;
+
 }
+
+
+
+

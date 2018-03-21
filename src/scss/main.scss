@@ -1,12 +1,16 @@
-//modules
-@import "modules/variables.scss";
-@import "modules/global.scss";
 
 //partials
-@import "partials/reset.scss";
+@import "partials/reset";
+@import "partials/flex";
+
+//modules
+@import "modules/variables";
+@import "modules/global";
 
 //components
 @import "components/button";
+@import "components/header";
+@import "components/footer";
 
 
 
