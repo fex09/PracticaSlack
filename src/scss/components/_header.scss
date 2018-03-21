@@ -1,35 +1,38 @@
-$header:200px;
+$header:100px;
 $header-logo-width: 130px;
 $header-logo-height: 50px;
 
 .app-header{
-    @include flex(space-between, right );
+    @include flex(space-between, center);
     height: $header;
+    width: $width-100;
     background-color: $white-1;
     position: fixed;
     padding: 0 $gutter-1; 
     top:0;
-
+    border-bottom-style: solid;
+    border-bottom-width: $width-1; 
     &__img{
+        margin: 100px;
         width: $header-logo-width;
         height: $header-logo-height;
     }
     &__button{
         &:first-child {
-            margin-right: $gutter-1;            
+            margin-left: 600px;            
         }
         &:hover{
             text-decoration: underline;
+            cursor: pointer;
         }     
        
     }      
     .backwhite{
-        @include app-button($white-1);
+        @include app-button($white-1,none);
     }
     
     .withBorder{
-        @include app-button($white-1);
-        border-bottom-style: solid;
-        border-bottom-width: $width-1;
+        @include app-button($white-1,solid);        
+        border-width: $width-1;
     }  
 }

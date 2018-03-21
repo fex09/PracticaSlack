@@ -1,5 +1,8 @@
 $height-block-home:500px;
 
-.app-block{
-    background-color: $gray-1
+@mixin app-block($bc){
+    background-color: $bc;
+    height: $height-block-home;
+    width: $width-100;
+    
 }
